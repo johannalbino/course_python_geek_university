@@ -1,0 +1,6 @@
+Fruta: uva 
+Fruta: banana 
+Fruta: morango 
+Fruta: mamao 
+Fruta: goiaba 
+Fruta: bananaFruta: uvaFruta: peraFruta: abacaxiFruta: maça
