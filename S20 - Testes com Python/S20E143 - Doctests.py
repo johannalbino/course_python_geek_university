@@ -5,7 +5,7 @@ São testes que colocamos na docstring das funções/méditos Python
 
 Para executar doctests pelo terminal:
 
-python -m doctest -v nome_do_modulo.py
+python -m doctest -v nome_do_modulo/arquivo.py
 
 """
 
@@ -37,10 +37,21 @@ def duplicar_valores(valores):
      >>> duplicar_valores([True, None])
      Traceback (most recent call last):
         ...
-     TypeError: unsurpported operand type(s) for *: 'NoneType' and 'NoneType'
+     TypeError: unsupported operand type(s) for *: 'int' and 'NoneType'
     """
-    l = []
-    for i in valores:
-        l.append(i + i)
+    return [2 * elemento for elemento in valores]
 
-    return l
+
+def fala_oi():
+    """Fala oi
+    >>> fala_oi()
+    'oi'
+    """
+    return "oi"
+
+def retorna_verdade():
+    """Retorna a verdade (True)
+    >>> retorna_verdade()
+    True
+    """
+    return True

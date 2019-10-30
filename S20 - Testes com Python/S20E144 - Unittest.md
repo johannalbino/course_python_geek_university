@@ -20,3 +20,12 @@ TestCase -> Caso de teste para sua unidade
 Asserts
 https://docs.python.org/3/library/unittest.html
 
+Por convenção, todos os testes em um test case devem ter seu nome iniciado com test_
+Para executar os testes com unittest
+python nome_do_modulo/arquivo.py
+
+Para executar os testes com unittest no modo verbose
+python nome_do_modulo/arquivo.py -v
+
+Docstrings nos testes
+Podemos acrescentar (e é recomendado) docstrings nos nossos testes
